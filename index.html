@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechNova Pro - Revolutionary Smart Device</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-microchip"></i>
+                <span>TechNova</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
+                <li class="nav-item"><a href="#specs" class="nav-link">Specs</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-elements">
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-gradient">TechNova Pro</span>
+                    <br>The Future is Here
+                </h1>
+                <p class="hero-description">
+                    Experience next-generation technology with our revolutionary smart device. 
+                    Featuring AI-powered capabilities, sleek design, and unmatched performance.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="order-btn">
+                        <span>Order Now</span>
+                        <i class="fas fa-rocket"></i>
+                    </button>
+                    <button class="btn btn-secondary" id="learn-more">
+                        <span>Learn More</span>
+                        <i class="fas fa-play"></i>
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-target="50000">0</span>
+                        <span class="stat-label">Happy Customers</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="99">0</span>
+                        <span class="stat-label">% Satisfaction</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="24">0</span>
+                        <span class="stat-label">Hour Support</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="product-showcase">
+                    <div class="product-card">
+                        <div class="product-glow"></div>
+                        <img src="https://images.unsplash.com/photo-1593784991095-a205069470b6?w=500&h=600&fit=crop" alt="TechNova Pro Device" class="product-img">
+                        <div class="product-features">
+                            <div class="feature-dot" data-feature="AI Powered"></div>
+                            <div class="feature-dot" data-feature="5G Ready"></div>
+                            <div class="feature-dot" data-feature="Wireless Charging"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Revolutionary Features</h2>
+                <p class="section-subtitle">Discover what makes TechNova Pro extraordinary</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Intelligence</h3>
+                    <p>Advanced AI algorithms that learn and adapt to your preferences, providing personalized experiences.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>Quantum processing technology delivers unprecedented speed and performance for all your tasks.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Ultra Secure</h3>
+                    <p>Military-grade encryption and biometric authentication keep your data completely secure.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
+                    <h3>5G Connected</h3>
+                    <p>Experience blazing-fast 5G connectivity with seamless integration across all networks.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-battery-full"></i>
+                    </div>
+                    <h3>All-Day Battery</h3>
+                    <p>Revolutionary battery technology provides 48+ hours of continuous use with wireless charging.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Ready</h3>
+                    <p>Compatible worldwide with automatic language detection and real-time translation.</p>
+                    <div class="feature-hover-effect"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Specifications Section -->
+    <section id="specs" class="specs">
+        <div class="container">
+            <div class="specs-content">
+                <div class="specs-info">
+                    <h2 class="section-title">Technical Specifications</h2>
+                    <div class="specs-list">
+                        <div class="spec-item" data-aos="slide-right" data-aos-delay="100">
+                            <div class="spec-icon"><i class="fas fa-microchip"></i></div>
+                            <div class="spec-details">
+                                <h4>Quantum Processor</h4>
+                                <p>Next-gen 5nm chip with AI co-processor</p>
+                            </div>
+                            <div class="spec-value">Q7 Pro</div>
+                        </div>
+                        <div class="spec-item" data-aos="slide-right" data-aos-delay="200">
+                            <div class="spec-icon"><i class="fas fa-memory"></i></div>
+                            <div class="spec-details">
+                                <h4>Memory</h4>
+                                <p>Ultra-fast LPDDR5 RAM</p>
+                            </div>
+                            <div class="spec-value">16GB</div>
+                        </div>
+                        <div class="spec-item" data-aos="slide-right" data-aos-delay="300">
+                            <div class="spec-icon"><i class="fas fa-hdd"></i></div>
+                            <div class="spec-details">
+                                <h4>Storage</h4>
+                                <p>NVMe SSD with encryption</p>
+                            </div>
+                            <div class="spec-value">1TB</div>
+                        </div>
+                        <div class="spec-item" data-aos="slide-right" data-aos-delay="400">
+                            <div class="spec-icon"><i class="fas fa-tv"></i></div>
+                            <div class="spec-details">
+                                <h4>Display</h4>
+                                <p>OLED with HDR10+ support</p>
+                            </div>
+                            <div class="spec-value">6.8"</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="specs-visual" data-aos="fade-left">
+                    <div class="tech-circle">
+                        <div class="circle-content">
+                            <i class="fas fa-cog rotating"></i>
+                            <span>Powered by TechNova</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Real experiences from real users</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-track" id="testimonial-track">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"TechNova Pro has completely transformed how I work. The AI features are incredibly intuitive and the performance is unmatched."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face" alt="Alex Johnson">
+                                <div class="author-info">
+                                    <h4>Alex Johnson</h4>
+                                    <span>Tech Entrepreneur</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"The battery life is amazing and the security features give me complete peace of mind. Best investment I've made this year."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face" alt="Sarah Chen">
+                                <div class="author-info">
+                                    <h4>Sarah Chen</h4>
+                                    <span>Product Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Incredible build quality and the 5G connectivity is lightning fast. The AI assistant understands exactly what I need."</p>
+                            <div class="testimonial-author">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" alt="Mike Rodriguez">
+                                <div class="author-info">
+                                    <h4>Mike Rodriguez</h4>
+                                    <span>Digital Marketer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn" onclick="previousTestimonial()">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-indicators">
+                        <span class="indicator active" onclick="currentTestimonial(0)"></span>
+                        <span class="indicator" onclick="currentTestimonial(1)"></span>
+                        <span class="indicator" onclick="currentTestimonial(2)"></span>
+                    </div>
+                    <button class="testimonial-btn" onclick="nextTestimonial()">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Choose Your Plan</h2>
+                <p class="section-subtitle">Flexible options to suit your needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">799</span>
+                        </div>
+                        <p>Perfect for beginners</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 8GB RAM</li>
+                        <li><i class="fas fa-check"></i> 256GB Storage</li>
+                        <li><i class="fas fa-check"></i> Basic AI Features</li>
+                        <li><i class="fas fa-check"></i> 1 Year Warranty</li>
+                        <li><i class="fas fa-times"></i> 5G Connectivity</li>
+                    </ul>
+                    <button class="btn btn-outline">Choose Plan</button>
+                </div>
+                <div class="pricing-card featured" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">1299</span>
+                        </div>
+                        <p>Best value for professionals</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 16GB RAM</li>
+                        <li><i class="fas fa-check"></i> 1TB Storage</li>
+                        <li><i class="fas fa-check"></i> Full AI Suite</li>
+                        <li><i class="fas fa-check"></i> 2 Year Warranty</li>
+                        <li><i class="fas fa-check"></i> 5G Connectivity</li>
+                    </ul>
+                    <button class="btn btn-primary">Choose Plan</button>
+                </div>
+                <div class="pricing-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">1999</span>
+                        </div>
+                        <p>For demanding users</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 32GB RAM</li>
+                        <li><i class="fas fa-check"></i> 2TB Storage</li>
+                        <li><i class="fas fa-check"></i> Advanced AI</li>
+                        <li><i class="fas fa-check"></i> 3 Year Warranty</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                    </ul>
+                    <button class="btn btn-outline">Choose Plan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p>Ready to experience the future? Contact us today!</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Call Us</h4>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <p>hello@technova.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Visit Us</h4>
+                                <p>123 Tech Street, Silicon Valley</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Full Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Phone Number</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-microchip"></i>
+                        <span>TechNova</span>
+                    </div>
+                    <p>Revolutionizing technology for a better tomorrow.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Specifications</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Downloads</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Warranty</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TechNova. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <i class="fas fa-microchip"></i>
+            </div>
+            <div class="loading-text">Loading TechNova Experience...</div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
